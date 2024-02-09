@@ -1,13 +1,13 @@
 body {
     font-family: Arial, sans-serif;
     background-image: url("resources/bg2.jpg");
-    background-size: cover; /* Adjusts the background image to cover the entire container */
+    background-size: cover;
     background-repeat: no-repeat;
     display: flex;
-    justify-content: center; /* Center horizontally */
-    align-items: center; /* Center vertically */
-    height: 100vh; /* Full height of the viewport */
-    position: relative; /* Needed for absolute positioning */
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
 }
 
 .container {
@@ -19,7 +19,7 @@ body {
     border-radius: 20px;
     padding: 30px;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
-    text-align: center; /* Align text in the center */
+    text-align: center;
 }
 
 .buttons {
@@ -32,7 +32,7 @@ button {
     border: none;
     cursor: pointer;
     transition: all 0.3s ease;
-    border-radius: 10px; /* Add border radius for curved corners */
+    border-radius: 10px;
 }
 
 button:focus {
@@ -42,7 +42,7 @@ button:focus {
 #yesBtn {
     background-color: #4caf50;
     color: white;
-    margin-right: 10px; /* Add some space between buttons */
+    margin-right: 10px;
 }
 
 #noBtn {
