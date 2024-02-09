@@ -18,6 +18,6 @@ yesBtn.addEventListener('click', function() {
 let yesBtnSize = 18; // Define the initial font size for the "Yes" button
 
 noBtn.addEventListener('click', function() {
-    yesBtnSize += 2;
+    yesBtnSize += 10;
     yesBtn.style.fontSize = yesBtnSize + 'px';
 });
